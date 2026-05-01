@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Anime - Scroll Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div
+      class="cinematic-orb orb-a"
+      aria-hidden="true"
+      data-parallax
+      data-speed="-0.22"
+    ></div>
+    <div
+      class="cinematic-orb orb-b"
+      aria-hidden="true"
+      data-parallax
+      data-speed="0.28"
+    ></div>
+    <div
+      class="cinematic-orb orb-c"
+      aria-hidden="true"
+      data-parallax
+      data-speed="0.18"
+    ></div>
+    <div class="progress-line" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">A/N Studio</a>
+      <nav>
+        <a href="#opening">Intro</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section
+        id="opening"
+        class="opening section-reveal"
+        data-reveal
+        data-chapter="CHAPTER 00"
+        data-ease="0.06"
+        data-pan-ease="0.08"
+      >
+        <div class="opening-mask" data-parallax data-speed="0.16">
+          <img
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1800&q=80"
+            alt="Studio cinematique en lumiere"
+          />
+        </div>
+        <div class="opening-copy">
+          <p class="eyebrow" data-stagger>Opening Sequence</p>
+          <h1
+            class="opening-title"
+            data-stagger
+            data-parallax
+            data-speed="0.38"
+          >
+            FRAME THE STORY.
+            <br />
+            THEN BREAK THE GRID.
+          </h1>
+          <p class="lead" data-stagger>
+            Intro fullscreen avec masque anime pour poser une ambiance
+            cinematique avant les sections portfolio.
+          </p>
+          <a href="#work" class="cta" data-stagger>Commencer le voyage</a>
+        </div>
+      </section>
+
+      <section
+        class="hero section-reveal"
+        data-reveal
+        data-chapter="CHAPTER 01"
+        data-ease="0.12"
+        data-pan-ease="0.13"
+      >
+        <p class="eyebrow" data-stagger>Creative Developer Portfolio</p>
+        <h1 class="hero-title" data-stagger data-parallax data-speed="0.32">
+          DES IDEES NETTES.<br />
+          DES MOTIONS QUI VIVENT.
+        </h1>
+        <p class="lead" data-stagger data-parallax data-speed="0.14">
+          Template de demonstration pour animations modernes: revele progressif,
+          typographie en mouvement, et transitions fluides declenchees au
+          scroll.
+        </p>
+        <a href="#work" class="cta" data-stagger>Explorer les projets</a>
+        <p
+          class="floating-word"
+          aria-hidden="true"
+          data-parallax
+          data-speed="0.55"
+        >
+          SCROLL
+        </p>
+      </section>
+
+      <section
+        id="work"
+        class="portfolio section-reveal"
+        data-reveal
+        data-chapter="CHAPTER 02"
+        data-ease="0.24"
+        data-pan-ease="0.25"
+      >
+        <div class="section-head" data-stagger>
+          <p class="eyebrow">Selection</p>
+          <h2>Projets en lumiere</h2>
+        </div>
+
+        <article class="project">
+          <div
+            class="project-media image-reveal"
+            data-stagger
+            data-parallax
+            data-speed="0.2"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1400&q=80"
+              alt="Poste de travail design"
+              data-pan
+              data-pan-speed="7"
+            />
+          </div>
+          <div class="project-copy" data-stagger>
+            <h3>Motion Grid</h3>
+            <p>
+              Direction artistique pour une plateforme editoriale. Reveal avec
+              clip-path + translation subtile.
+            </p>
+          </div>
+        </article>
+
+        <article class="project reverse">
+          <div
+            class="project-media image-reveal"
+            data-stagger
+            data-parallax
+            data-speed="0.25"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80"
+              alt="Ecran de code moderne"
+              data-pan
+              data-pan-speed="6"
+            />
+          </div>
+          <div class="project-copy" data-stagger>
+            <h3>Kinetic Type</h3>
+            <p>
+              Interface narrative rythmee par la typo. Lignes dynamiques
+              synchronisees avec le scroll.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section
+        id="about"
+        class="about section-reveal"
+        data-reveal
+        data-chapter="CHAPTER 03"
+        data-ease="0.16"
+        data-pan-ease="0.15"
+      >
+        <p class="eyebrow" data-stagger>Manifesto</p>
+        <h2 class="parallax-title" data-stagger data-parallax data-speed="0.44">
+          BUILDER OF BRAVE INTERFACES
+        </h2>
+        <p class="about-copy" data-stagger>
+          Je combine systeme visuel, architecture front-end et motion design
+          pour creer des experiences digitales expressives. Ce layout est pense
+          comme base reutilisable pour un portfolio premium.
+        </p>
+      </section>
+
+      <section
+        id="contact"
+        class="contact section-reveal"
+        data-reveal
+        data-chapter="CHAPTER 04"
+        data-ease="0.1"
+        data-pan-ease="0.11"
+      >
+        <p class="eyebrow" data-stagger>Contact</p>
+        <h2 data-stagger data-parallax data-speed="0.26">
+          Un projet en tete ?
+        </h2>
+        <a class="mail" href="mailto:hello@anstudio.dev" data-stagger
+          >hello@anstudio.dev</a
+        >
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
